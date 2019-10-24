@@ -13,9 +13,6 @@
 		2C34116B22D8ACAF002ADA30 /* libvorbisenc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C34116822D8ACAF002ADA30 /* libvorbisenc.a */; };
 		2C34116C22D8ACAF002ADA30 /* libvorbisfile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C34116922D8ACAF002ADA30 /* libvorbisfile.a */; };
 		2C34116D22D8ACAF002ADA30 /* libvorbis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C34116A22D8ACAF002ADA30 /* libvorbis.a */; };
-		2C42E02A23487AA800688CB1 /* Result.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C42E02323487AA800688CB1 /* Result.cpp */; };
-		2C42E02B23487AA800688CB1 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C42E02523487AA800688CB1 /* Game.cpp */; };
-		2C42E02C23487AA800688CB1 /* Title.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C42E02723487AA800688CB1 /* Title.cpp */; };
 		2C6906B22298123200A427D0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906B12298123200A427D0 /* OpenAL.framework */; };
 		2C6906B42298123A00A427D0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906B32298123A00A427D0 /* AudioToolbox.framework */; };
 		2C6906B62298124100A427D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906B52298124100A427D0 /* Foundation.framework */; };
@@ -35,7 +32,6 @@
 		2C6906D32298131500A427D0 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906CD2298131500A427D0 /* libopencv_core.a */; };
 		2C6906D42298131500A427D0 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906CE2298131500A427D0 /* libopencv_imgproc.a */; };
 		2C6906D62298131800A427D0 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C6906D52298131800A427D0 /* libz.a */; };
-		2C6906D82298140F00A427D0 /* engine in Resources */ = {isa = PBXBuildFile; fileRef = 2C6906D72298140F00A427D0 /* engine */; };
 		2CEACB67233A61C900C6EE98 /* libgif.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEACB65233A61C900C6EE98 /* libgif.a */; };
 		2CEACB68233A61C900C6EE98 /* libutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEACB66233A61C900C6EE98 /* libutil.a */; };
 /* End PBXBuildFile section */
@@ -49,13 +45,6 @@
 		2C34116822D8ACAF002ADA30 /* libvorbisenc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisenc.a; path = ../../lib/macOS/libvorbis/libvorbisenc.a; sourceTree = "<group>"; };
 		2C34116922D8ACAF002ADA30 /* libvorbisfile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbisfile.a; path = ../../lib/macOS/libvorbis/libvorbisfile.a; sourceTree = "<group>"; };
 		2C34116A22D8ACAF002ADA30 /* libvorbis.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvorbis.a; path = ../../lib/macOS/libvorbis/libvorbis.a; sourceTree = "<group>"; };
-		2C42E02323487AA800688CB1 /* Result.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Result.cpp; sourceTree = "<group>"; };
-		2C42E02423487AA800688CB1 /* Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
-		2C42E02523487AA800688CB1 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
-		2C42E02623487AA800688CB1 /* Title.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Title.hpp; sourceTree = "<group>"; };
-		2C42E02723487AA800688CB1 /* Title.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Title.cpp; sourceTree = "<group>"; };
-		2C42E02823487AA800688CB1 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
-		2C42E02923487AA800688CB1 /* Result.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Result.hpp; sourceTree = "<group>"; };
 		2C6906B12298123200A427D0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		2C6906B32298123A00A427D0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		2C6906B52298124100A427D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -75,7 +64,6 @@
 		2C6906CD2298131500A427D0 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_core.a; path = ../../lib/macOS/opencv/libopencv_core.a; sourceTree = "<group>"; };
 		2C6906CE2298131500A427D0 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libopencv_imgproc.a; path = ../../lib/macOS/opencv/libopencv_imgproc.a; sourceTree = "<group>"; };
 		2C6906D52298131800A427D0 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = ../../lib/macOS/zlib/libz.a; sourceTree = "<group>"; };
-		2C6906D72298140F00A427D0 /* engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = engine; path = App/engine; sourceTree = "<group>"; };
 		2CEACB65233A61C900C6EE98 /* libgif.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgif.a; path = ../../lib/macOS/libgif/libgif.a; sourceTree = "<group>"; };
 		2CEACB66233A61C900C6EE98 /* libutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libutil.a; path = ../../lib/macOS/libgif/libutil.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +107,6 @@
 		2C1778791CE0A9D800BB8AD0 = {
 			isa = PBXGroup;
 			children = (
-				2C6906D72298140F00A427D0 /* engine */,
 				2C1778921CE0A9EA00BB8AD0 /* Info.plist */,
 				2C1778A21CE0B65500BB8AD0 /* icon.icns */,
 				2C1778981CE0AA7C00BB8AD0 /* src */,
@@ -139,13 +126,6 @@
 		2C1778981CE0AA7C00BB8AD0 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				2C42E02423487AA800688CB1 /* Common.hpp */,
-				2C42E02523487AA800688CB1 /* Game.cpp */,
-				2C42E02823487AA800688CB1 /* Game.hpp */,
-				2C42E02323487AA800688CB1 /* Result.cpp */,
-				2C42E02923487AA800688CB1 /* Result.hpp */,
-				2C42E02723487AA800688CB1 /* Title.cpp */,
-				2C42E02623487AA800688CB1 /* Title.hpp */,
 				2C1778991CE0AA7C00BB8AD0 /* Main.cpp */,
 			);
 			path = src;
@@ -239,7 +219,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C6906D82298140F00A427D0 /* engine in Resources */,
 				2C1778A31CE0B65500BB8AD0 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,9 +230,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C42E02C23487AA800688CB1 /* Title.cpp in Sources */,
-				2C42E02B23487AA800688CB1 /* Game.cpp in Sources */,
-				2C42E02A23487AA800688CB1 /* Result.cpp in Sources */,
 				2C17789A1CE0AA7C00BB8AD0 /* Main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
